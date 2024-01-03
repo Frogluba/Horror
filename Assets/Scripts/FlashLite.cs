@@ -22,6 +22,8 @@ public class FlashLite : MonoBehaviour
         {
             Invoke("Hp", 10f);
         }
+
+       
     }
     void Hp()
     {
@@ -35,4 +37,6 @@ public class FlashLite : MonoBehaviour
         source.clip = click;
         source.Play();
     }
+
+   
 }
